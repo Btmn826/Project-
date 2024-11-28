@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1{
+       display: flex;
+    margin-top: 100px;
+    transition: all 1s ease-in-out;
+}
+
+.section1:hover{
+
+    margin-right: 50px;
+}
+
+.design{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+    transition: all 0.9s ease-in;
+}
+
+.design:hover{
+    color: aqua;
+    margin-left: 50px;
+}
+
+.p1{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.p2{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    width: 100%;
+}
+
+.p2:hover{
+    background-color: rgb(47, 15, 231);
+    color: yellow;
+    
+}
+.img1{
+    height: 65vh;
+    width: 400px;
+    margin-left: 90px;
+    border-radius: 5%;
+    margin-top: -50px;
+    transition: all 2s ease-in-out;
+}
+
+.img1:hover{
+    background-color: rgba(183, 0, 255, 0.753);
+    box-shadow: 0px 0px 10px blue;
+}
+
+.section2{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.section3{
+    display: flex;
+}
+
+h3{
+    padding-bottom: 20px;
+}
+
+.p3{
+    margin-right: 80px;
+
+}
+
+.section4{
+    background-color: green;
+    color: white;
+    display: flex;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.section4:hover{
+    background-color: coral;
+}
+
+.img2{
+    height: 250px;
+    width: 300px;
+    border-radius: 20%;
+    padding: 30px;
+}
+
+.img2:hover{
+    background-color: rgba(224, 224, 243, 0.842);
+}
+.we{
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+   
+}
+
+.p4{
+    margin-left: 50px;
+    margin-right: 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+.p5{
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.sell{
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.section5{
+    display: flex;
+    gap: 50px;
+}
+
+.img3{
+    max-width: 100%;
+}
+
+
+.div3{
+    background-color: rgb(240, 217, 217);
+    margin-bottom: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.add1{
+    padding: 20px;
+}
+
+.add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p6{
+    
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+ul{
+    padding-top: 15px;
+    list-style-position: inside;
+}
+
+li{
+    list-style-image: url(../img/tick.svg);
+    padding-bottom: 20px;
+    transition: all 0.9s ease-in;
+}
+
+.p7{
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    
+    
+}
+
+.div4{
+    background-color: rgb(240, 217, 217);
+    margin-bottom: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.div5{
+    background-color: rgba(248, 205, 205, 0.877);
+    margin-bottom: 70px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.div3:hover{
+    background-color: rgba(252, 183, 143, 0.719);
+    box-shadow: 0px 0px 0px 2px  rgba(255, 0, 0, 0.884);
+}
+
+.div4:hover{
+    background-color: rgba(231, 150, 247, 0.753);
+    box-shadow: 0px 0px 0px 2px   rgba(124, 26, 236, 0.884);
+}
+
+.div5:hover{
+    background-color: rgb(252, 128, 252);
+    box-shadow: 0px 0px 0px 2px rgba(245, 9, 9, 0.856);
+}
+
+li:hover{
+    color: rgb(238, 16, 16);
+    margin-left: 20px;
+}
+
+a:hover{
+    color: orange;
+    background-color: black;
+}
+
+
+
+/* media querries */
+/* esm max-width 600px
+sm = min-width 600px
+md = min-width 768px
+lg = min-width 992px
+xlg = min-width 1200px */
+
+
+
+
+
+@media (max-width:400px) {
+    .design {
+        font-size: 31px;
+        margin-top: 0;
+    }
+
+
+    .section1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+ 
+
+    .p1 {
+        margin-top: 26px;
+        line-height: 2;
+        text-align: justify;
+    }
+
+
+    .img1 {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .section {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 30px;
+    }
+
+    .section2 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .section3{
+        flex-direction: column;
+    }
+
+
+    .p3 {
+        margin-right: 0px;
+        text-align: justify;
+        line-height: 2;
+        padding-bottom: 20px;
+    }
+
+
+    .section4 {
+        background-color: orchid;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0px;
+        text-align: justify;
+        padding: 30px;
+    }
+
+    .img2 {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .we {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 28px;
+    }
+
+    .p4 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .section5 {
+       flex-direction: column;
+        gap: 0px;
+    }
+
+    .div3 {
+        margin-top: 25px;
+    }
+
+    .sell {
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (max-width:300px) {
+    .design{
+        font-size: 20px;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .section1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+
+    .p1 {
+        margin-top: 26px;
+        line-height: 2;
+        text-align: justify;
+    }
+
+
+    .img1 {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .section {
+
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 30px;
+    }
+
+    .section5 {
+        flex-direction: column;
+         gap: 0px;
+     }
+ 
+    
+}
+
+
